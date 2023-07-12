@@ -1,0 +1,57 @@
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.heading{
+  color: #fb3d03;
+  font-size: 30px;
+}
+
+.underline{
+  width:70px;
+  height: 5px;
+  background-color: #fb3d03;
+  margin-top: 7px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.paragraph{
+  font-size: larger;
+}
+
+.nav-item{
+  margin-right: 10px;
+}
+.color{
+  background-color: rgb(236, 236, 236);
+}
+.sub-heading{
+  font-size: 20px;
+  color: #c8694c;
+}
+.copyright{
+  background-color: rgba(0, 0, 0, 0.05)
+}
+.text-reset{
+  text-decoration: none;
+}
+.icon{
+  height: 30px;
+  width: 30px;
+}
+.card-img-top{
+  /* max-height: 275px; */
+  max-height: 145px;
+}
+/* .imgDiv{
+ max-height: 290px;
+  width: auto;
+} */
+.card{
+  max-height: 282.83px;
+}
+.banner .carouselExample{
+  width: 100%;
+  max-height: 100%;
+}
