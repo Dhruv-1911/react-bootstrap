@@ -1,4 +1,15 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 .section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.section-second{
+  min-height: 60vh;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -13,8 +24,8 @@
   height: 5px;
   background-color: #fb3d03;
   margin-top: 7px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 .paragraph{
   font-size: larger;
@@ -44,14 +55,46 @@
   /* max-height: 275px; */
   max-height: 145px;
 }
-/* .imgDiv{
+ .imgDiv{
  max-height: 290px;
   width: auto;
-} */
-.card{
+} 
+/* .card{
   max-height: 282.83px;
-}
-.banner .carouselExample{
+} */
+.banner
+.carouselExample{
   width: 100%;
   max-height: 100%;
+} 
+.carousel-inner{
+  /* height: 70vh; */
+  box-shadow: 0px 7px 28px 1px rgba(0,0,0,0.75);
+}
+
+.hello{
+  color: rgb(208, 110, 110);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  /* width: 100%;
+  height: 100%; */
+  top:150px;
+  left:350px;
+  z-index: 1;
+}
+
+.bg-image{
+  max-height: 70vh; 
+  width: 100%;
+}
+
+.carousel-item{
+  background-size: cover;
+  position: relative;
+}
+
+.top-bar{
+  font-size :15px;
 }
