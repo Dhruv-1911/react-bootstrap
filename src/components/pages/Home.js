@@ -3,6 +3,7 @@ import Slider from "../inc/slider";
 import { Link } from "react-router-dom";
 import VMV from "./inc/vmv";
 import Services from "./inc/services";
+import CardData from "../cadData";
 
 function Home() {
   return (
@@ -20,8 +21,8 @@ function Home() {
             <div
               className="col-md-12 text-center"
               data-aos="fade-up"
-              data-aos-duration="2500"
-              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1500"
+              data-aos-offset="300"
             >
               <h2 className="heading">Our Company</h2>
               <div className="underline mx-auto"></div>
@@ -42,11 +43,12 @@ function Home() {
           </div>
         </div>
       </section>
+
       {/* our vision , mission and Values  */}
       <VMV />
 
       {/* Our Services */}
-      <Services />
+      <Services  CardData={CardData}/>
     </div>
   );
 }

@@ -67,16 +67,16 @@ function footer() {
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contact us</h6>
               <p>
-                <FontAwesomeIcon icon={faHouse} /> <nbsp />
+                <FontAwesomeIcon icon={faHouse} style={{marginRight:"5px"}}/> 
                 Address: 187, Godawari park soc., Part 1, Yogichowk, Surat,
                 Gujarat (India) 395010.
               </p>
               <p>
-                <FontAwesomeIcon icon={faEnvelope} /> <nbsp />
+                <FontAwesomeIcon icon={faEnvelope} style={{marginRight:"5px"}} /> 
                 enq.nilkanth@gmail.com
               </p>
               <p>
-                <FontAwesomeIcon icon={faPhone} /> <nbsp />
+                <FontAwesomeIcon icon={faPhone} style={{marginRight:"5px"}}/> 
                 +91-7777 99 3781
               </p>
             </div>

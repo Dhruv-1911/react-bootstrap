@@ -40,20 +40,22 @@ function Navbar() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
                 <Link to="/" className="nav-link active">
-                  {" "}
                   Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/about" className="nav-link active">
-                  {" "}
                   About
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/contact" className="nav-link active">
-                  {" "}
                   Contact
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/product" className="nav-link active">
+                  Products
                 </Link>
               </li>
             </ul>

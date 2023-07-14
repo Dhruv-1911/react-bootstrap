@@ -1,22 +1,19 @@
 import React from "react";
-import image1 from "../images/image1.jpg";
-import image2 from "../images/image2.jpg";
-import image3 from "../images/image3.jpg";
-import services4 from "../images/services3.jpeg";
+import image1 from "../../assets/image1.jpg";
+import image2 from "../../assets/image2.jpg";
+import image3 from "../../assets/image3.jpg";
+// import services4 from "../images/services3.jpeg";
 function slider() {
   return (
     <div id="carouselExample" className="carousel slide bg-success-subtle">
       <div className="carousel-inner">
         <div className="carousel-item active ">
-          {/* <div className="hello">
-          <h1>Hello World !....</h1>
-          </div> */}
-          <div class="hello hero_content hero_content2">
-            <h5 class="text-blue">
+          <div className="hello hero_content hero_content2">
+            <h5 className="text-blue">
               Welcome to the <span style={{fontSize:"40px"}}>BOOTCAMP</span>
             </h5>
-            <h1 class="text-yellow" style={{fontSize:"30px"}}>We Bake With Pasion.</h1>
-            <a class="btn">Shop Now</a>
+            <h1 className="text-yellow" style={{fontSize:"30px"}}>We Bake With Pasion.</h1>
+            <button className="btn">Shop Now</button>
           </div>
           <img
             src={image1}
